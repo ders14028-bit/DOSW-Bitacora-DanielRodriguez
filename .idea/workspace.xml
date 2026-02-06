@@ -41,6 +41,7 @@
     "Application.Ejercicio2.executor": "Run",
     "Application.Ejercicio3.executor": "Run",
     "Application.Ejercicio4.executor": "Run",
+    "Application.Ejercicio5.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -60,7 +61,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Ejercicio4">
+  <component name="RunManager" selected="Application.Ejercicio5">
     <configuration name="Ejercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.dosw.bitacora.Semana1.Ejercicio1" />
       <module name="DOSW-Bitacora-DanielRodriguez" />
@@ -113,6 +114,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ejercicio5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.dosw.bitacora.Semana1.Ejercicio5" />
+      <module name="DOSW-Bitacora-DanielRodriguez" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.dosw.bitacora.Semana1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DoswBitacoraDanielRodriguezApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="DOSW-Bitacora-DanielRodriguez" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.dosw.bitacora.DOSW_Bitacora_DanielRodriguez.DoswBitacoraDanielRodriguezApplication" />
@@ -122,6 +136,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ejercicio5" />
         <item itemvalue="Application.Ejercicio4" />
         <item itemvalue="Application.Ejercicio3" />
         <item itemvalue="Application.Ejercicio2" />
