@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e582004-38e3-409e-9773-5b62a54bc707" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/DOSW-Bitacora-DanielRodriguez/src/test/java/edu/dosw/bitacora/Semana1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/DOSW-Bitacora-DanielRodriguez/src/main/java/edu/dosw/bitacora/Semana1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOSW-Bitacora-DanielRodriguez/src/test/java/edu/dosw/bitacora/Semana2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/DOSW-Bitacora-DanielRodriguez/src/main/java/edu/dosw/bitacora/Semana2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOSW-Bitacora-DanielRodriguez/src/test/java/edu/dosw/bitacora/Semana3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/DOSW-Bitacora-DanielRodriguez/src/main/java/edu/dosw/bitacora/Semana3/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="1e582004-38e3-409e-9773-5b62a54bc707" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771008289526</updated>
-      <workItem from="1771008290842" duration="370000" />
+      <workItem from="1771008290842" duration="1170000" />
     </task>
     <servers />
   </component>
