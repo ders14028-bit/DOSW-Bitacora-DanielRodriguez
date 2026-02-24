@@ -1,4 +1,4 @@
-package edu.dosw.bitacora.Semana1;
+package edu.dosw.bitacora.DOSW_Bitacora_DanielRodriguez.Semana1.Streams;
 
 class Transaction {
     String id;
