@@ -1,4 +1,4 @@
-# Bitácora de Aprendizaje — Semana 2
+Bitácora de Aprendizaje — Semana 2
 ---
 
 ## ¿Qué entendía mal antes?
