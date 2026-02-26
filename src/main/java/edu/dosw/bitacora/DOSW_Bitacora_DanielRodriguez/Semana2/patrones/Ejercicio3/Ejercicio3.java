@@ -17,8 +17,6 @@ public class Ejercicio3 {
 
         System.out.println("Actual: " + editor.getContenido());
 
-        // Restaurar versión 1
-
         editor.restaurar(historial.obtener(1));
 
         System.out.println("Restaurado: " + editor.getContenido());
