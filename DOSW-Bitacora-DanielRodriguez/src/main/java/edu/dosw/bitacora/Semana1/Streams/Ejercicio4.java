@@ -1,22 +1,11 @@
-package edu.dosw.bitacora.Semana1;
+package edu.dosw.bitacora.Semana1.Streams;
+
+//Dado un listado de Usuarios y utilizando los mismo atributos anteriores,
+//filtrar las personas mayores de edad y obtener sus nombres.
 
 import java.util.List;
 
-//Dada una lista de usuarios con los atributos:
-//id
-//        name
-//age
-//        active
-//
-//Filtra unicamente los usuarios activos
-//Obten una lista con los nombres en mayuscula
-//Ordena alfabeticamente el resultado
-//
-//Datos de Entrada:  users = List<Users>
-//Resultado: List<String>
-
-
-public class Ejercicio3 {
+public class Ejercicio4 {
 
     public static void main(String[] args) {
 
@@ -28,7 +17,7 @@ public class Ejercicio3 {
         );
 
         List<String> result = users.stream()
-                .filter(User::isActive)
+                .filter(u -> u.getAge() > 18)
                 .map(User::getName)
                 .map(String::toUpperCase)
                 .sorted()
