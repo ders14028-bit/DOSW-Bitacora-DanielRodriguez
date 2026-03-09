@@ -1,6 +1,7 @@
-package edu.dosw.bitacora.Semana3.Comportamiento.Strategy;
+package edu.dosw.bitacora.Corte1.Semana3.Comportamiento.Strategy;
 
 public class Class {
+
     private RouteStrategy routeStrategy;
 
     public Class(RouteStrategy routeStrategy) {
@@ -15,3 +16,4 @@ public class Class {
         routeStrategy.calculateRoute();
     }
 }
+
