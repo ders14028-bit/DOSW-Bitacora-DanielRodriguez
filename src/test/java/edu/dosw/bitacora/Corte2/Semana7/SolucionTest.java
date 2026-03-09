@@ -1,5 +1,8 @@
 package edu.dosw.bitacora.Corte2.Semana7;
 
+import edu.dosw.bitacora.Corte2.Semana7.DOSWLearningAnalyticsSystem.Grade;
+import edu.dosw.bitacora.Corte2.Semana7.DOSWLearningAnalyticsSystem.Solucion;
+import edu.dosw.bitacora.Corte2.Semana7.DOSWLearningAnalyticsSystem.Student;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

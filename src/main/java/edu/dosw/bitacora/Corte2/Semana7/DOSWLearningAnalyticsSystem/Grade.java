@@ -1,6 +1,4 @@
-package edu.dosw.bitacora.Corte2.Semana7;
-
-import java.time.LocalDate;
+package edu.dosw.bitacora.Corte2.Semana7.DOSWLearningAnalyticsSystem;
 
 import java.time.LocalDate;
 

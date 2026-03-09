@@ -1,5 +1,5 @@
 
-package edu.dosw.bitacora.Semana1.Streams;
+package edu.dosw.bitacora.Corte1.Semana1.Streams;
 
 
 import java.util.List;

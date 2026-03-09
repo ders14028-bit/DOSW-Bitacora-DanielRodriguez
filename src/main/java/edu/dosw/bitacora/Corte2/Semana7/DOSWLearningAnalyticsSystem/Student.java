@@ -1,8 +1,4 @@
-package edu.dosw.bitacora.Corte2.Semana7;
-
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
+package edu.dosw.bitacora.Corte2.Semana7.DOSWLearningAnalyticsSystem;
 
 import java.util.List;
 

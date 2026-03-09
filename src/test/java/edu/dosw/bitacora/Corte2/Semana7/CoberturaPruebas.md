@@ -1,0 +1,1 @@
+![img.png](../../../../../../../main/resources/Imagenes/PruebasCorte2Semana7.png)

@@ -1,4 +1,4 @@
-package edu.dosw.bitacora.Corte2.Semana7;
+package edu.dosw.bitacora.Corte2.Semana7.DOSWLearningAnalyticsSystem;
 
 import java.util.*;
 
