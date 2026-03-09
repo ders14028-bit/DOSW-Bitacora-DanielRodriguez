@@ -29,3 +29,7 @@ Si tuviera que calificar la gestion de tiempo de esta semana entre 1-10 de maner
 ![img.png](../../../../../../../main/resources/Imagenes/PruebasCorte2Semana7.png)
 
 Resultado de las pruebas de los ejercicios de esta semana con jacoco
+
+https://diegoale8504.atlassian.net/jira/software/projects/ECI/boards/166/backlog?atlOrigin=eyJpIjoiNjBiNjUzMjVlZmI2NDE5MGE2NTUwZTUxYzUyMGM5OWYiLCJwIjoiaiJ9
+
+Link del Jira
