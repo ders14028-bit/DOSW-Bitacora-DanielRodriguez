@@ -45,6 +45,8 @@
 	</dependencies>
 
 	<build>
+		<sourceDirectory>${project.basedir}/DOSW-Bitacora-DanielRodriguez/src/main/java</sourceDirectory>
+		<testSourceDirectory>${project.basedir}/DOSW-Bitacora-DanielRodriguez/src/test/java</testSourceDirectory>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
