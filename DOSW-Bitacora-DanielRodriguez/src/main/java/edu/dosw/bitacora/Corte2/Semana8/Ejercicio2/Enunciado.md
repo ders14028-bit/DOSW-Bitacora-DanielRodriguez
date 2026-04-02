@@ -1,0 +1,16 @@
+# Ejercicio 2: Sistema de Procesamiento de Pagos
+- Una plataforma de comercio electrónico necesita procesar pagos usando distintos proveedores:
+    - PayPal
+    - Stripe
+    - Tarjeta de crédito 
+    - Transferencia bancaria
+- Cada proveedor tiene una API diferente, por lo que se requiere una forma de adaptar esas interfaces al sistema interno.
+- Además, antes de procesar un pago, el sistema debe ejecutar una serie de validaciones configurables, como:
+    - Validar saldo
+    - Validar fraude
+    - Validar límite de transacciones
+- Estas validaciones deben ejecutarse en cadena, donde cada una decide si el proceso continúa o no.
+- Requisitos
+    - El sistema debe poder integrar proveedores externos con diferentes interfaces.
+    - Las validaciones deben poder agregarse o quitarse fácilmente.
+    - El sistema debe permitir agregar nuevos proveedores de pago sin modificar el código principal.
