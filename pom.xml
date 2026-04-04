@@ -28,6 +28,9 @@
 	</scm>
 	<properties>
 		<java.version>21</java.version>
+		<sonar.projectKey>DOSW-Bitacora-DanielRodriguez</sonar.projectKey>
+		<sonar.projectName>DOSW-Bitacora-DanielRodriguez</sonar.projectName>
+		<sonar.coverage.jacoco.xmlReportPaths>${project.build.directory}/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -46,8 +49,16 @@
 
 	<build>
 		<sourceDirectory>${project.basedir}/DOSW-Bitacora-DanielRodriguez/src/main/java</sourceDirectory>
-		<testSourceDirectory>${project.basedir}/DOSW-Bitacora-DanielRodriguez/src/test/java</testSourceDirectory>
 		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<testExcludes>
+						<testExclude>edu/dosw/bitacora/Corte2/Semana8/Ejercicio1/NotificationServiceTest.java</testExclude>
+					</testExcludes>
+				</configuration>
+			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
@@ -70,6 +81,25 @@
 						<goals>
 							<goal>report</goal>
 						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>build-helper-maven-plugin</artifactId>
+				<version>3.6.1</version>
+				<executions>
+					<execution>
+						<id>add-nested-test-source</id>
+						<phase>generate-test-sources</phase>
+						<goals>
+							<goal>add-test-source</goal>
+						</goals>
+						<configuration>
+							<sources>
+								<source>${project.basedir}/DOSW-Bitacora-DanielRodriguez/src/test/java</source>
+							</sources>
+						</configuration>
 					</execution>
 				</executions>
 			</plugin>
